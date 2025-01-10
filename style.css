@@ -1,4 +1,125 @@
-*{
+*{  margin: 0;
+    margin-bottom: 10px;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    width: 1140px;
+    margin: 30px auto;
+    background-image:linear-gradient( 180deg,
+        #070211, #0702110c ), url(images/Banner\ Image.png);
+    background-size:cover;
+    background-position: center center ;
+    padding: 150px 0;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.header h1{
+    font-size: 60px;
+    font-family:serif;
+    margin-top: 0;
+}
+.header h3{
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.categories{
+    text-align: center;
+    margin-top: 50px;
+}
+.categories .offer h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: red;
+    margin-bottom: 15px;
+}
+.categories .offer h4{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.categories .hny-img{
+    margin-bottom: 100px;
+}
+.welcome-banner {
+    width: 1140px;
+    margin: 30px auto;
+    background-image:linear-gradient( 45deg,
+        #070211, #0702110c ), url(images/Vectorrr.png);
+    background-size:cover;
+    background-position: center center ;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.welcome-banner .content {
+    width: 600px;
+    padding-left: 100px;
+}
+.welcome-banner .content h1 {
+    font-family:serif;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+.welcome-banner .content button {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 15px;
+    background-color: white;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+
+}
+.welcome-banner img {
+    margin: 100px;
+}
+.Deadline{
+    width: 1140px;
+    margin: 30px auto;
+    background-image:linear-gradient( 180deg,
+        #ff00002a, #ff000000 );
+    padding: 150px 0;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.Deadline h3 {
+    margin-bottom: 15px;
+}
+.Deadline h3 span{
+    color:#FF0000 ;
+}
+.Deadline button{
+    background-color: #FF0000;
+    padding: 10px 15px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 15px;
+}
+.new-best-offer{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+    align-items: center;
+}
+.new-best-offer .offers{
+    width: 390px;
+}
+.circle{
+    border: 10px solid #ff0505;
+    border-radius: 50%;
+    padding: 20px;
 }
